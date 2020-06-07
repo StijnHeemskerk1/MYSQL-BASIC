@@ -32,21 +32,21 @@ De SQL syntax is als volgt:
 SELECT kolom1, kolom2, ... FROM tabel_naam WHERE conditie
 ```
 Net als in andere programeer talen waarbij je een conditie gebruikt bij een if/else statement kun je die ook gebruiken met SQL. Het werkt in principe hetzelfde, stel we nemen de onderstaande tabel die een aantal rijen bevat van de `worldhappiness` database.
-   country | region | rank | score |
-   --------| -------| -----| ------|
-   Switzerland | Western Europe | 1 | 7587 |
-   Iceland | Western Europe | 2 | 7561 |
-   New Zealand | Australia and New Zeeland | 9 | 7286|
+   country     | region                      | rank   | score  |
+   --------    | -------                     | -----  | ------ |
+   Switzerland | Western Europe              | 1      | 7587   |
+   Iceland     | Western Europe              | 2      | 7561   |
+   New Zealand | Australia and New Zeeland   | 9      | 7286   |
 
 De SQL statement `SELECT * FROM jaar2015 WHERE country="Iceland"` geeft het volgende terug:
-   country | region | rank | score |
-   --------| -------| -----| ------|
-   Iceland | Western Europe | 2 | 7561 |
+   country | region           | rank      | score  |
+   --------| -------          | -----     | ------ |   
+   Iceland | Western Europe   | 2         | 7561   |
 
 En de SQL statement `SELECT * FROM jaar2015 WHERE rank=1` geeft dus:
-   country | region | rank | score |
-   --------| -------| -----| ------|
-   Switzerland | Western Europe | 1 | 7587 |
+   country     | region          | rank   | score  |
+   --------    | -------         | -----  | ------ |
+   Switzerland | Western Europe  | 1      | 7587   |
 
 Klinkt logisch toch? Mischien zie je al hoe je dus condities schrijft maar nog even voor de duidelijkheid wat staat er nu in gewone taal bij een SQL statement met een WHERE clausule?
 

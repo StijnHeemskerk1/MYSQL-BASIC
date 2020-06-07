@@ -56,11 +56,11 @@ SELECT title, rating FROM movies;
 1. [ ] We gebruiken een nieuwe database export genaamd `mod-mysql-basic-worldhappiness.sql`. Deze vind je in de `db-export` map.
 2. [ ] Om te beginnen open PhpMyAdmin in je browser, maak een nieuwe database aan (noem deze `mod-mysql-basic-worldhappiness`) en importeer het `.sql` bestand. Vergeet niet de database eerst te selecteren voor je de import doet.
 3. [ ] Deze database bevat twee tabellen genaamd `jaar2015` en `jaar2016` met allebei de volgende kolommen: `country`, `region`, `rank` en `score`. Beide tabellen zien er ongeveer zo uit:
-   country | region | rank | score |
-   --------| -------| -----| ------|
-   Switzerland | Western Europe | 1 | 7587 |
-   Iceland | Western Europe | 2 | 7561 |
-   ... | ... | ... | ...|
+   country      | region          | rank      | score |
+   --------     | -------         | -----     | ------|
+   Switzerland  | Western Europe  | 1         | 7587  |
+   Iceland      | Western Europe  | 2         | 7561  |
+   ...          | ...             | ...       | ...   |
 
 4. [ ] Open het SQL tabblad in PhpMyAdmin en schrijf SQL queries om de gevraagde gegevens te tonen:
    **(vergeet niet na elke beantwoorde vraag de SQL statement die je geschreven hebt te copy/pasten in `antwoorden.sql` en een bookmark met een logisch genaamd label aan te maken)**
